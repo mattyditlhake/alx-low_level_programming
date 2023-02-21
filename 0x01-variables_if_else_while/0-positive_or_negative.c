@@ -1,14 +1,15 @@
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main : A program that prints out the condition of a number
- *
- *
- *Return: 0 (Success)
- betty style doc for function main goes there */
+
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
-/*Its the 0-positive_or_negative.c*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
