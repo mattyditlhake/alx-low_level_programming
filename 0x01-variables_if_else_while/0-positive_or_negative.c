@@ -1,19 +1,27 @@
-#include <stadlib.h>
-#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/* main : A program that prints out the condition of a number
+ *
+ *
+ *Return: 0 (Success)
+ betty style doc for function main goes there */
 int main(void)
 {
 	int n;
+/*Its the 0-positive_or_negative.c*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
+	{
 		printf("%d is positive\n", n);
-	else if (no == 0)
+	}
+	else if (n == 0)
+	{
 		printf("%d is zero\n", n);
+	}
 	else
+	{
 		printf("%d is negative\n", n);
+	}
 	return (0);
 }
