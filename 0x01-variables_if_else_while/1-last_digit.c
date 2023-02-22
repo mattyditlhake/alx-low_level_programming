@@ -8,6 +8,7 @@
 int main(void)
 {
 	int n;
+	/*This task took me the whole day*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
