@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - entry point
 *
@@ -14,7 +13,7 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c != 'e' && c != 'q')
-                {
+		{
 			putchar(c);
 		}
 	}
